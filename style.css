@@ -1,0 +1,176 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.header h3{
+    margin-bottom: 30px;
+    color: #cccccccc;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.login .login-email input{
+    height: 50px;
+    width: 30vw;
+    margin-bottom: 20px;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    padding-left: 20px;
+    border: none;
+    background-color: #cccccccc;
+}
+
+.login .login-password input{
+    height: 50px;
+    width: 30vw;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    padding-left: 20px;
+    border: none;
+    background-color: #cccccccc; 
+}
+
+.login .retrieval p{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.login .retrieval a{
+    text-decoration: none;
+    color: black;
+}
+
+.login .sign-in button{
+    height: 50px;
+    width: 30vw;
+    margin-top: 50px;
+    border: none;
+    background-color: blueviolet;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+}
+
+.login .sign-in button, a{
+    text-decoration: none;
+    color: white;
+}
+
+.register .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.register .text p{
+    padding: 0px 10px;
+}
+
+
+.footer .companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5%;
+}
+
+.footer .companies span{
+    height: 80px;
+    width: 100px;
+    margin-left: 10px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.companies .first-span img{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.companies .second-span img{
+    height: 100%;
+    width: 100%;
+}
+
+.companies .third-span img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.footer .join{
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+.footer .join a{
+    text-decoration: none;
+    color: cyan;
+}
+/* .test h1{
+    margin: 30vh auto;
+    text-align: center;
+    position: relative;
+}
+
+.test h1::before{
+    content: "";
+    height: 2px;
+    width: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -2;
+}
+
+.test h1::after{
+    content: "";
+    height: 2px;
+    width: 30vw;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
+}
+
+.test span{
+    background-color: white;
+    /* padding: 0px 30px; */
+    /* margin: 0px 30px; */
+/* } */ 
+
+body{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
